@@ -385,7 +385,9 @@
   /*-----------------------------------*\
     #HERO
   \*-----------------------------------*/
-  
+  a{
+    text-decoration: none !important;
+  }
   .hero {
     background-image: url("../images/hero-bg-bottom.png"),
                       url("../images/hero-bg.png"),
