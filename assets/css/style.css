@@ -371,8 +371,13 @@
     width: 100%;
     border-radius: 30px;
   }
+
+  .ceo-img  > img {
+    width: 100% !important;
+    height: 100%  !important;
   
   
+  }
   /*-----------------------------------*\
     #HERO
   \*-----------------------------------*/
@@ -669,10 +674,7 @@
     font-size: 18px;
     padding: 8px;
     border-radius: 50%;
-  }
-  
-  .footer-top .social-link:is(:hover, :focus) {
-    background-image: var(--gradient-2);
+  } .footer-top .social-link:is(:hover, :focus) { background-image: var(--gradient-2);
     color: var(--white);
   }
   
