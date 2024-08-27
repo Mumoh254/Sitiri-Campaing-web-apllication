@@ -170,7 +170,7 @@
   \*-----------------------------------*/
   .container-gradient-one{
     background: var(--gradient-background);
-    color: #fff;
+    color: #9d3030;
   }
   .container { padding-inline: 15px; }
   
@@ -255,9 +255,55 @@
     color: #000000;
   }
   
+  .container  {
   
+    width: 100% !important;
+
+  }
   
+  .ceo  img {
+    border-radius: 50% !important;
+    height: 200px  !important;
+    width: 200px !important;
+  }
   
+  .container-text {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+  }
+
+  .bio  {
+    background: var(--gradient-1);
+   
+  }
+
+  .lib {
+
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center;
+
+  }
+
+ 
+  .bio-ceo  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .flex {
+ 
+   
+
+  }
+
   /*-----------------------------------*\
     #HEADER
   \*-----------------------------------*/
@@ -787,7 +833,7 @@
      */
   
     .container {
-      max-width: 550px;
+      max-width: 850px;
       margin-inline: auto;
     }
   
