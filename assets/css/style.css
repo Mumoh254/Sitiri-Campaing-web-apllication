@@ -609,6 +609,7 @@ a{
 
 .blog-list {
   display: grid;
+
   gap: 30px;
 }
 
@@ -1144,4 +1145,8 @@ body{
   .footer-brand { grid-column: auto; }
 
 }
+}
+
+.container-gradient-one{
+  background: var(--gradient-1);
 }
