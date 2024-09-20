@@ -1149,4 +1149,5 @@ body{
 
 .container-gradient-one{
   background: var(--gradient-1);
+  color: #ffffff;
 }
