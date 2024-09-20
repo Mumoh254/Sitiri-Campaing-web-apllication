@@ -898,8 +898,8 @@ a{
 
 
 body{
-  font-size: 2rem;
-  height: fit-content;
+  font-size: 2.1rem;
+  height: auto;
 }
   /**
    * HERO
