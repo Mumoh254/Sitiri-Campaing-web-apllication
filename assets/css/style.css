@@ -1151,3 +1151,81 @@ body{
   background: var(--gradient-1);
   color: #ffffff  !important;
 }
+
+
+
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+.text h1 {
+  font-size: 2rem;
+
+}
+
+.text p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+
+}
+
+.image {
+  flex: 1;
+  padding: 20px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .text, .image {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .text h1 {
+    font-size: 1.5rem;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .text h1 {
+    font-size: 1.2rem;
+  }
+
+  .text p {
+    font-size: 0.9rem;
+  }
+}
+
+.logo   img {
+  height: 50px;
+  border-radius: 50%;
+
+}
