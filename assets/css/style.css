@@ -1415,7 +1415,7 @@ body {
   font-size: var(--base-font-size);
   font-weight: var(--base-font-weight);
   color: var(--purple-navy);
-  overflow: hidden;
+ 
 }
 
 h1, .hero-title, .stats-title {
