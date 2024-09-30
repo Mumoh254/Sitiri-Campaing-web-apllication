@@ -1261,7 +1261,7 @@ body{
 
 .stats {
   font-size: 1.8rem;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 20px;
   font-weight: bold;
  
@@ -1408,4 +1408,65 @@ html, body {
 }
 .h3{
   color: #000  !important;
+}
+
+body {
+  font-size: var(--base-font-size);
+  font-weight: var(--base-font-weight);
+  color: var(--purple-navy);
+}
+
+h1, .hero-title, .stats-title {
+  font-size: var(--fs-1);
+  font-weight: var(--heading-font-weight);
+}
+
+h2, .section-title, .title {
+  font-size: var(--fs-4);
+  font-weight: var(--heading-font-weight);
+}
+
+p, .hero-text, .about-text, .stats-text, .text {
+  font-size: var(--fs-8);
+  font-weight: var(--base-font-weight);
+}
+
+button, .btn, .bt {
+  font-size: var(--fs-8);
+  font-weight: var(--fw-500);
+  text-transform: uppercase;
+}
+
+.stats-title {
+  font-size: var(--fs-2);
+  font-weight: var(--fw-700);
+}
+
+
+
+
+
+/* Paragraph text */
+.about-text.abt-important {
+  font-size: 1.8rem;
+  line-height: 1.2;
+
+  text-align: justify;
+  padding: 10px;
+  font-weight: normal;
+}
+
+
+
+
+/* Container styling */
+.container.pu {
+  margin-bottom: 40px;
+}
+
+/* Image alignment */
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
