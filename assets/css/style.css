@@ -1480,3 +1480,23 @@ button, .btn, .bt {
 .launch  {
   color: #333  !important;
 }
+
+
+/* Center the entire container */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* Text styling for the centered container */
+.text-center {
+  width: 100%;
+}
+
+
