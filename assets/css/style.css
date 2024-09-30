@@ -1263,7 +1263,7 @@ body{
 
 .stats {
   font-size: 1.8rem;
-  color: #000000;
+  color: #2038b9;
   margin-bottom: 20px;
   font-weight: bold;
  
@@ -1300,7 +1300,7 @@ body{
 
 .about-text {
   font-size: 1.2rem;
-  color: #000000;
+  color:    #2038b9;
   margin-bottom: 20px;
   line-height: 1.2;
   font-weight: 400 !important;
@@ -1477,5 +1477,5 @@ button, .btn, .bt {
 
 
 .launch  {
-  color: #000  !important;
+  color: #2038b9  !important;
 }
