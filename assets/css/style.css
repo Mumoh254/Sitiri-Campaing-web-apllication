@@ -1500,3 +1500,26 @@ button, .btn, .bt {
 }
 
 
+/* Styling for the text container */
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align text */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Add padding */
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+
+
+
+/* Paragraph text styling */
+.about-text {
+  font-size: 1.2rem; /* Standard font size */
+  line-height: 1.6; /* Improved line height for readability */
+  color: #333; /* Dark color for text */
+  margin-top: 20px; /* Space above paragraph */
+  max-width: 600px; /* Maximum width for better readability */
+}
