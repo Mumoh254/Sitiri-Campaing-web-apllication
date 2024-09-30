@@ -1270,12 +1270,12 @@ body{
 }
 
 .btn-purchase {
-  background:  var(--g);
+
   color: white;
   padding: 15px 30px;
   border: none;
   border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 1.2rem  !important;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
@@ -1349,10 +1349,7 @@ body{
     font-size: 1rem;
   }
 
-  .btn-purchase {
-    padding: 10px 20px;
-    font-size: 1rem;
-  }
+ 
 }
 
 .btn{
