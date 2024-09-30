@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 :root {
 
   /**
@@ -36,7 +36,7 @@
    * typography
    */
 
-  --ff-source-sans-pro: 'Source Sans Pro', sans-serif;
+ 
   --ff-poppins: 'Poppins', sans-serif;
 
   --fs-1: 4.2rem;
@@ -1449,7 +1449,7 @@ button, .btn, .bt {
 
 
 /* Paragraph text */
-.about-text.abt-important {
+.about-text.im {
   font-size: var(--fs-8);
   line-height: 1.2;
 
