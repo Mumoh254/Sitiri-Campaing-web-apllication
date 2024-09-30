@@ -1518,7 +1518,7 @@ button, .btn, .bt {
 /* Paragraph text styling */
 .about-text {
   font-size: 1.8rem; /* Standard font size */
-  line-height: 1.6; /* Improved line height for readability */
+  line-height: 1.8rem; /* Improved line height for readability */
   color: #333; /* Dark color for text */
   margin-top: 20px; /* Space above paragraph */
   max-width: 600px; /* Maximum width for better readability */
@@ -1545,8 +1545,8 @@ button, .btn, .bt {
 }
 
 .about-text {
-  font-size: 1.5rem;
-  line-height: 1.6;
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
 
 .stats.impact {
@@ -1574,4 +1574,32 @@ button, .btn, .bt {
   .about-content {
     padding: 10px;
   }
+}
+
+
+.people-reached      {
+
+
+  font-size: 2rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  padding:  2%;
+}
+
+
+
+.people     {
+
+
+  font-size: 2rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  padding:  2%;
+  color:       blue;
+}
+
+.impact  {
+
+  font-size: 2rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  padding:  2%;
+  color:       blue;
 }
