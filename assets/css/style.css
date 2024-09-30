@@ -1303,7 +1303,7 @@ body{
   color: #000000;
   margin-bottom: 20px;
   line-height: 1.2;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
  
 }
 
@@ -1457,7 +1457,7 @@ button, .btn, .bt {
 
   text-align: justify;
   padding: 10px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 
