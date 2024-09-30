@@ -321,6 +321,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+
 }
 
 .logo {
@@ -429,6 +430,7 @@ a{
   background-size: auto, cover, auto;
   padding-block-start: 120px;
   padding-block-end: var(--section-padding);
+  background:  var(--gradient-1);
 }
 
 .hero-content { margin-block-end: 50px; }
@@ -450,6 +452,7 @@ a{
   color: var(--white);
   font-size: var(--fs-8);
   margin-block-end: 30px;
+  
 }
 
 
@@ -1245,9 +1248,10 @@ body{
   margin: 20px auto;
   max-width: 1200px;
   background-color: white;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
+  
 }
 
 .pu:hover {
@@ -1381,4 +1385,8 @@ body{
     background: #000;
     display: none;
   }
+}
+
+body{
+  padding: 0% 2%;
 }
