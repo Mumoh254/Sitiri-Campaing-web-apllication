@@ -1153,6 +1153,8 @@ body{
 .container-gradient-one{
   background: var(--gradient-1);
   color: #ffffff  !important;
+ 
+  
 }
 
 
@@ -1248,7 +1250,7 @@ body{
   margin: 20px auto;
   max-width: 1200px;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
   
@@ -1462,6 +1464,7 @@ button, .btn, .bt {
 /* Container styling */
 .container.pu {
   margin-bottom: 40px;
+
 }
 
 /* Image alignment */
@@ -1470,3 +1473,4 @@ button, .btn, .bt {
   height: auto;
   border-radius: 8px;
 }
+
