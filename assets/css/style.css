@@ -1517,9 +1517,61 @@ button, .btn, .bt {
 
 /* Paragraph text styling */
 .about-text {
-  font-size: 1.2rem; /* Standard font size */
+  font-size: 1.8rem; /* Standard font size */
   line-height: 1.6; /* Improved line height for readability */
   color: #333; /* Dark color for text */
   margin-top: 20px; /* Space above paragraph */
   max-width: 600px; /* Maximum width for better readability */
+
+}
+
+
+
+.about-container {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.about-banner {
+  width: 100%;
+}
+
+.about-content {
+  max-width: 1000px; /* You can adjust this value to limit the content width */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.stats.impact {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.bt {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #ff1900; /* Adjust button color */
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.bt ion-icon {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    padding: 10px;
+  }
 }
