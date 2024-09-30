@@ -1330,6 +1330,7 @@ body{
 @media (max-width: 767px) {
   .container {
     flex-direction: column;
+ 
   }
 
   .section-title {
@@ -1388,5 +1389,23 @@ body{
 }
 
 body{
-  padding: 0% 2%;
+  width: 100% !important;
+}
+
+
+/* Hide scrollbar for Chrome, Safari, and other WebKit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ensure the page content is still scrollable */
+html, body {
+  overflow: -moz-scrollbars-none; /* For older Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+.impact{
+  font-size: 1.9rem !important;
+}
+.h3{
+  color: #000  !important;
 }
