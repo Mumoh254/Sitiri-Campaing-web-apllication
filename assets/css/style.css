@@ -1404,7 +1404,7 @@ html, body {
   -ms-overflow-style: none;  /* For Internet Explorer and Edge */
 }
 .impact{
-  font-size: 1.9rem !important;
+  font-size: var(--fs-8);
 }
 .h3{
   color: #000  !important;
@@ -1448,7 +1448,7 @@ button, .btn, .bt {
 
 /* Paragraph text */
 .about-text.abt-important {
-  font-size: 1.8rem;
+  font-size: var(--fs-8);
   line-height: 1.2;
 
   text-align: justify;
