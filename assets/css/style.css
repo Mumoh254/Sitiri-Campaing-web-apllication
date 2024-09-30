@@ -1245,7 +1245,7 @@ body{
   margin: 20px auto;
   max-width: 1200px;
   background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
 }
@@ -1254,22 +1254,17 @@ body{
   transform: translateY(-10px);
 }
 
-.section-title {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #007bff;
-  margin-bottom: 15px;
-  text-align: center;
-}
 
 .stats {
-  font-size: 1.5rem;
-  color: #28a745;
+  font-size: 1.8rem;
+  color: #000000;
   margin-bottom: 20px;
+  font-weight: bold;
+ 
 }
 
 .btn-purchase {
-  background:  var(--gradient-2);
+  background:  var(--g);
   color: white;
   padding: 15px 30px;
   border: none;
@@ -1282,7 +1277,7 @@ body{
 }
 
 .btn-purchase:hover {
-  background-color: #0056b3;
+  color: #0056b3;
   transform: scale(1.05);
 }
 
@@ -1348,5 +1343,42 @@ body{
   .btn-purchase {
     padding: 10px 20px;
     font-size: 1rem;
+  }
+}
+
+.btn{
+
+  background: var(--gradient-2) !important;
+  
+}
+.btn a  {
+  font-size: 2rem;
+}
+
+@media  ( max-width:  768px)  {
+
+  .header{
+   
+    width: 100%;
+   
+  }
+
+  .head{
+    display: flex !important;
+  
+    width: 100% !important;
+  
+  }
+  .logo{ 
+    width: 100%;
+    
+  }
+  .navbar{
+    background: #000;
+    display: none;
+  }
+  .nav-open-btn {
+    background: #000;
+    display: none;
   }
 }
